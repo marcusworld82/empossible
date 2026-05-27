@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "*.css", "use": "@vercel/static" },
+    { "src": "*.js", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/services", "dest": "/services.html" },
+    { "src": "/portfolio", "dest": "/portfolio.html" },
+    { "src": "/about", "dest": "/about.html" },
+    { "src": "/pricing", "dest": "/pricing.html" },
+    { "src": "/book", "dest": "/book.html" }
+  ]
+}
